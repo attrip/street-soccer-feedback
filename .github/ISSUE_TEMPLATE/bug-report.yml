@@ -1,0 +1,37 @@
+name: 不具合 / Report a bug
+description: 思った動きが出ない、画面が崩れるなどの問題を教えてください。
+title: "[不具合] "
+labels: [bug]
+body:
+  - type: textarea
+    id: actual
+    attributes:
+      label: 起きたこと / What went wrong?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 再現する操作 / Steps to reproduce
+      description: 押したキーやボタン、球を持っていたかなど。
+    validations:
+      required: false
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動き / Expected behavior
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: 端末・ブラウザ・操作 / Device, browser and controls
+      placeholder: "例: iPhone・Safari・タッチ操作"
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: 画像・動画 / Screenshots or video
+    validations:
+      required: false

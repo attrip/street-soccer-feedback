@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: STREET SOCCERで遊ぶ / Play
+    url: https://attrip.jp/street-flow/?lang=ja
+    about: ブラウザでゲームを開きます。
+  - name: Play in English
+    url: https://attrip.jp/street-flow/?lang=en
+    about: Open the game in English.

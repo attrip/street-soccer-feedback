@@ -1,0 +1,38 @@
+name: 改善案 / Suggest an improvement
+description: 操作・見た目・遊びやすさの案や、短い感想も歓迎です。
+title: "[改善案] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        遊んで感じたことを教えてください。日本語・Englishのどちらでも投稿できます。
+        Tell us what would make STREET SOCCER more fun or easier to play.
+  - type: textarea
+    id: situation
+    attributes:
+      label: どんな場面？ / What happened?
+      description: 迷ったこと、操作しにくかったこと、良かったことなど。
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: どうなると嬉しい？ / What would you like to change?
+      description: 解決方法が分からなくても、期待した動きだけで大丈夫です。
+    validations:
+      required: false
+  - type: input
+    id: device
+    attributes:
+      label: 端末と操作 / Device and controls
+      placeholder: "例: iPhone・タッチ操作 / Mac・矢印とASDF"
+    validations:
+      required: false
+  - type: textarea
+    id: media
+    attributes:
+      label: 画像・動画 / Screenshots or video
+      description: あればここに添付してください。Optional.
+    validations:
+      required: false
